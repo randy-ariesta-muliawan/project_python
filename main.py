@@ -12,12 +12,24 @@ pg.display.set_caption("Bloons TD Battles")
 balon_image = pg.image.load('img/Better_Red_Bloon.png').convert_alpha()
 balon_group = pg.sprite.Group()
 
-balon = Balon((200, 300), balon_image)
+waypoints = [
+    (100, 100),
+    (400, 200),
+    (400, 100),
+    (200, 300)
+]
+
+balon = Balon(waypoints, balon_image)
 balon_group.add(balon)
 
 run = True
 while run:
     clock.tick(c.FPS)
+    screen.fill("white")
+
+    pg.draw.lines(screen, "grey0", False, waypoints)
+
+    balon_group.update()
     balon_group.draw(screen)
 
     for event in pg.event.get():
