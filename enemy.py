@@ -2,7 +2,7 @@ import pygame as pg
 from pygame.math import Vector2
 import math
 
-class Balon(pg.sprite.Sprite):
+class Enemy(pg.sprite.Sprite):
     def __init__(self, waypoints, image):
         pg.sprite.Sprite.__init__(self)
         self.waypoints = waypoints
