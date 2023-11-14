@@ -44,7 +44,7 @@ BTD Battles is a tower defense game developed using the Pygame library in Python
    Maps:
     - Only supporting one map for now
 
-   Game Mechanics:
+    Game Mechanics:
     - Towers target and attack enemies within their range.
     - Towers have various attributes like firerate, range, and damage.
     - Players can strategically place towers to maximize their effectiveness.
