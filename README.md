@@ -8,29 +8,29 @@ BTD Battles is a tower defense game developed using the Pygame library in Python
 
 Towers:
 1. Dart Monkey:
-Cost: $215
-Firerate: 1.0 sec
-Range: 100
+Cost: $215;
+Firerate: 1.0 sec;
+Range: 100;
 Damage: 1 red balloon
 2. Sniper Monkey:
-Cost: $430
-Firerate: 1.0 sec
-Range: 100
+Cost: $430;
+Firerate: 1.0 sec;
+Range: 100;
 Damage: 1 red balloon
 3. Ninja Monkey:
-Cost: $650
-Firerate: 1.0 sec
-Range: 100
+Cost: $650;
+Firerate: 1.0 sec;
+Range: 100;
 Damage: 1 red balloon
 4. Super Monkey:
-Cost: $1800
-Firerate: 0.1 sec
-Range: 150
+Cost: $1800;
+Firerate: 0.1 sec;
+Range: 150;
 Damage: 1 red balloon
 5. Monkey Apprentice:
-Cost: $595
-Firerate: 1.0
-Range: 100
+Cost: $595;
+Firerate: 1.0;
+Range: 100;
 Damage: 1 red balloon
 
 • Gameplay
