@@ -1,8 +1,10 @@
 BTD Battles (Clone)
 
+
 • Overview
 
 BTD Battles is a tower defense game developed using the Pygame library in Python. The game involves strategically placing towers to defend against waves of enemies. Players can choose from different types of towers, each with its own unique abilities and characteristics.
+
 
 • Features
 
@@ -33,6 +35,7 @@ Firerate: 1.0
 Range: 100
 Damage: 1 red balloon
 
+
 • Gameplay
 
 Player:
@@ -59,12 +62,14 @@ User Interface:
 - Allows players to buy and place towers using mouse clicks.
 - Supports tower selling and provides feedback sounds for tower placement and selling.
 
+
 • How to Play:
 1. Run the game script.
 2. Use the mouse to interact with the game interface.
 3. Place towers strategically to defend against waves of enemies.
 4. Earn money by popping enemies and completing rounds.
 5. Survive as many rounds as possible.
+
 
 • Controls:
 1. Left Mouse Button:
