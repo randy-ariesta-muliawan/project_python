@@ -1,10 +1,12 @@
 BTD Battles (Clone)
 
 • Overview
+
 BTD Battles is a tower defense game developed using the Pygame library in Python. The game involves strategically placing towers to defend against waves of enemies. Players can choose from different types of towers, each with its own unique abilities and characteristics.
 
 • Features
-Towers
+
+Towers:
 1. Dart Monkey:
 Cost: $215
 Firerate: 1.0 sec
@@ -32,6 +34,7 @@ Range: 100
 Damage: 1 red balloon
 
 • Gameplay
+
 Player:
 - Starts with 100 health and $800.
 - Earns money by popping enemies and completing rounds.
