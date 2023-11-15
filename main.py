@@ -180,8 +180,7 @@ class createTower(Tower):
 class Icon:
 	towers = {
 		'dart monkey'		 : [ 215, 1.0, 100, 1],
-		'sniper monkey'	   : [ 430, 1.0, 100, 1],
-		'boomerang thrower'   : [ 430, 1.0, 100, 1],
+		'sniper monkey'	   : [ 430, 1.0, 750, 1],
 		'ninja monkey'		: [ 650, 1.0, 100, 1],
 		'super monkey'		: [1800, 0.1, 150, 1],
 		'monkey apprentice'   : [ 595, 1.0, 100, 1]}
@@ -270,7 +269,7 @@ def workEvents(selected,wave,speed):
 				if player.money>=selected.cost:
 					rect = selected.img.get_rect(center=event.pos)
 					collide = False
-					if not collide: player.money-=selected.cost; selected = createTower(selected.tower,event.pos,selected.towers[selected.tower]); place_fx = pygame.mixer.Sound('sounds/place tower.mp3'); place_fx.play()
+					if not collide: player.money-=selected.cost; selected = createTower(selected.tower,event.pos,selected.towers[selected.tower]); place_fx = pygame.mixer.Sound('sounds/place_tower.mp3'); place_fx.play()
 
 			for obj in iconlist + (towerlist if not selected else []):
 				if obj.rect.collidepoint(event.pos): selected = obj; break
@@ -280,7 +279,7 @@ def workEvents(selected,wave,speed):
 				if wave<=len(mapvar.waves): Sender(wave)
 				else: print('No more rounds!')
 
-			if event.key == pygame.K_k and selected in towerlist: player.money+=int(selected.cost*0.9); towerlist.remove(selected); selected = None; sell_fx = pygame.mixer.Sound('sounds/sell tower.mp3'); sell_fx.play()
+			if event.key == pygame.K_k and selected in towerlist: player.money+=int(selected.cost*0.9); towerlist.remove(selected); selected = None; sell_fx = pygame.mixer.Sound('sounds/sell_tower.mp3'); sell_fx.play()
 			if event.key == pygame.K_w and speed<10: speed+=1
 			if event.key == pygame.K_s and speed>1: speed-=1
 	return selected,wave,speed
