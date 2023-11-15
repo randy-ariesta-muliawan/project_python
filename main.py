@@ -1,6 +1,5 @@
 import pygame, sys, os, time, math
 
-
 scrwid = 800
 scrhei = 750
 squsize = 50
@@ -180,7 +179,7 @@ class createTower(Tower):
 class Icon:
 	towers = {
 		'dart monkey'		 : [ 215, 1.0, 100, 1],
-		'sniper monkey'	   : [ 430, 1.0, 750, 1],
+		'sniper monkey'	   : [ 430, 5.0, 750, 1],
 		'ninja monkey'		: [ 650, 1.0, 100, 1],
 		'super monkey'		: [1800, 0.1, 150, 1],
 		'monkey apprentice'   : [ 595, 1.0, 100, 1]}
