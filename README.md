@@ -13,8 +13,8 @@ BTD Battles is a tower defense game developed using the Pygame library in Python
         Damage: 1 red balloon
     2. Sniper Monkey:
         Cost: $430
-        Firerate: 1.0 sec
-        Range: 100
+        Firerate: 5.0 sec
+        Range: Super!
         Damage: 1 red balloon
     3. Ninja Monkey:
         Cost: $650
